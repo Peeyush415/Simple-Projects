@@ -1,0 +1,29 @@
+body, html {
+    height: 100%;
+}
+
+main {
+    display: flex;
+    height: 100%;
+    justify-content: center;
+}
+
+.left, .right {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left {
+    background-color: aliceblue;
+    flex-direction: column;
+    align-items: center ;
+    height: 100%;
+}
+
+.right {
+    background-color: plum;
+    flex-direction: column;
+    height: 100%;
+}
