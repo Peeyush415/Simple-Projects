@@ -4,8 +4,26 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <h1>Hello, Welcome to Web World</h1>
+    <main>
+        <div class="left">
+            <h1>Tasks</h1>
+            <table border="2" id="taskTable">
+                <tr>
+                    <th>Sr No.</th>
+                    <th>Title</th>
+                    <th>Status</th>
+                </tr>
+            </table>
+        </div>
+
+        <div class="right">
+            <input type="text" id="task" placeholder="taskTable">
+            <button id="create-task">Create Task</button>
+        </div>
+    </main>
+    <script src="index.js"></script>
 </body>
 </html>
